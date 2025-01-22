@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Information Boxes</title>
+<style>
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f3f3f3;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+.info-box {
+  width: calc(33.33% - 40px);
+  padding: 20px;
+  margin: 20px;
+  background-color: #ffc0cb; /* Light pink */
+  border: 2px solid black;
+  border-radius: 8px;
+  text-align: center;
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+.info-box:hover {
+  background-color: #ffcc00; /* Bright yellow on hover */
+}
+.info-title {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #333; /* Dark gray text */
+}
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff; /* Blue button */
+  color: white;
+  font-size: 14px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+.button:hover {
+  background-color: #ff6600; /* Orange button on hover */
+}
+</style>
+</head>
+<body>
+<div class="container">
+
+<div class="info-box">
+<h2 class="info-title">Event Listings</h2>
+<a href="4.html" class="button">View Events</a>
+</div>
+<div class="info-box">
+<h2 class="info-title">Business Directory</h2>
+<a href="5.html" class="button">Explore Businesses</a>
+</div>
+<div class="info-box">
+<h2 class="info-title">Transport Information</h2>
+<a href="6.html" class="button">Check Transport</a>
+</div>
+<div class="info-box">
+<h2 class="info-title">News</h2>
+<a href="7.html" class="button">Read News</a>
+</div>
+<div class="info-box">
+<h2 class="info-title">Emergency Services</h2>
+<a href="8.html" class="button">Emergency Contacts</a>
+</div>
+<div class="info-box">
+<h2 class="info-title">Volunteer Opportunities</h2>
+<a href="9.html" class="button">Volunteer Now</a>
+</div>
+</div>
+</body>
+</html>
